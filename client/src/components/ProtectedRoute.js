@@ -76,7 +76,6 @@ function ProtectedRoute({ children }) {
     } catch (error) {
       dispatch(setUser(null));
       message.error(error.message);
-      navigate("/login");
     }
   };
 
@@ -104,7 +103,7 @@ function ProtectedRoute({ children }) {
             }}
           >
             <h3 className="demo-logo text-white m-0" style={{ color: "white" }}>
-              Book My Show
+              BookMyShow
             </h3>
             <Menu theme="dark" mode="horizontal" items={navItems} />
           </Header>
