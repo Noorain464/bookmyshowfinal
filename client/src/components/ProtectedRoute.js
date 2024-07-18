@@ -76,6 +76,7 @@ function ProtectedRoute({ children }) {
     } catch (error) {
       dispatch(setUser(null));
       message.error(error.message);
+      navigate("/login");
     }
   };
 
