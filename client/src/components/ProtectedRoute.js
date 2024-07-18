@@ -103,7 +103,7 @@ function ProtectedRoute({ children }) {
             }}
           >
             <h3 className="demo-logo text-white m-0" style={{ color: "white" }}>
-              Book My Show
+              OnlyShows
             </h3>
             <Menu theme="dark" mode="horizontal" items={navItems} />
           </Header>
